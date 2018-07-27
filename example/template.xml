@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image name="test">
+    <!-- 渲染前准备，字体加载等操作请放置在这里 -->
+    <preparations>
+        <font name="Ubuntu" path="E:\\Ubuntu-C.ttf"/>
+    </preparations>
+
+    <!-- 声明图片宽高 -->
+    <width>500</width>
+    <height>800</height>
+
+    <!-- 元素，图层顺序从低到高 -->
+    <objects>
+        <image x="0" y="0" alpha="200" scale="1.5">
+            file:///e:/cover.jpg
+        </image>
+        <text x="10" y="32" color="#7F000000" font="Microsoft YaHei" fontsize="26">
+            ${title}
+        </text>
+    </objects>
+</image>
